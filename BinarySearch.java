@@ -9,7 +9,7 @@ public class BinarySearch {
     }
 
     private static int binarySearch(int[] nums, int key,int start,int end) {
-        if(start <= end)
+        if(start <= end )
         {
             int mid = (start+end)/2;
             if(nums[mid]==key)
