@@ -16,6 +16,7 @@ public class LinerSearch {
 
     //Linear search algorithm implementation
 
+
     private static int linearSearch(int[] nums,int key) {
         for(int i=0;i<nums.length;i++)
         {
